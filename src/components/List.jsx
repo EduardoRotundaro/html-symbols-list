@@ -2,12 +2,21 @@ import React from 'react';
 
 import Card from './Card';
 
-export default props => {
+export default ({itens=[]}) => {
+    const renderCards  = () => itens.map(symbol => (
+        <Card 
+            name={symbol.name}
+            html={symbol.html} 
+            hex={symbol.hex}
+            entity={symbol.entity}
+        />
+    ));
+
     return (
         <section>
             <div className="container-fluid">
                 <div className="row m-4">
-                    <Card name="LEFTWARDS ARROW" html="8592" hex="#2190"/>
+                    {renderCards()}
                 </div>
             </div>
         </section>
