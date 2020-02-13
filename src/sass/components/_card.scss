@@ -1,0 +1,37 @@
+.card{
+    @extend .border;
+    @extend .shadow-sm;
+    @extend .text-center;
+    border-radius: 8px;
+    min-width: 140px;
+    -webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+    .head{
+        background: $gray;
+        font-size: 50px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        color: $primary;
+    }
+    .body{
+        @extend .p-2;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        color: $gray;
+        .name{
+            @extend .mb-2;
+            font-size: 12px;
+        }
+        .hex-code, .html-code{
+            font-weight: bold;
+            font-size: 18px;
+            display: block;
+        }
+    }
+    &:hover{
+        @extend .shadow;
+        cursor: pointer;
+    }
+}

@@ -1,15 +1,16 @@
 @import 'abstracts/variables';
-@import 'abstracts/mixins';
 
 @import 'vendors/bootstrap';
+@import 'vendors/reactToastify';
 
 @import 'base/typography';
 
-@import 'layout/grid';
+// @import 'layout/grid';
 
 @import 'components/header';
 @import 'components/footer';
+@import 'components/card';
 
-@import 'pages/index';
+// @import 'pages/index';
 
 @import 'themes/theme';
