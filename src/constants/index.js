@@ -1,5 +1,5 @@
 export const ARROWS = [
-    { name: '', html: '', hex: '', entity: '' },
+    { name: 'Leftwards Arrow', html: '8592', hex: '2190', entity: 'larr' },
 ];
 
 export const BLOCK = [
