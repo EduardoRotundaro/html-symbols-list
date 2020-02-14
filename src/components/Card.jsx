@@ -3,7 +3,7 @@ import { toast } from 'react-toastify';
 
 import {If} from './utils';
 
-export default ({name, html, hex, entity}) => {
+export default ({html, hex, entity}) => {
 
     const copyToClipBoard = (code) => {
         try{
@@ -29,7 +29,6 @@ export default ({name, html, hex, entity}) => {
                     <span dangerouslySetInnerHTML={{__html: `&#${html || hex};`}}></span>
                 </div>
                 <div className="body">
-                    <div className="name">{name}</div>
                     <code data-type="html-code" className="html-code">&amp;#{html};</code>
                     <code data-type="hex-code" className="hex-code">&amp;#{hex};</code>
                     <If condition={entity}>

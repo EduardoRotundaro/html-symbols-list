@@ -6,7 +6,6 @@ export default ({itens=[]}) => {
     const renderCards  = () => itens.map(symbol => (
         <Card 
             key={`${symbol.html}_${symbol.hex}`}
-            name={symbol.name}
             html={symbol.html} 
             hex={symbol.hex}
             entity={symbol.entity}

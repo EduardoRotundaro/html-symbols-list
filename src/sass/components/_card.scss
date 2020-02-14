@@ -20,10 +20,6 @@
         border-bottom-left-radius: 8px;
         border-bottom-right-radius: 8px;
         color: $gray;
-        .name{
-            @extend .mb-2;
-            font-size: 12px;
-        }
         .hex-code, .html-code{
             font-weight: bold;
             font-size: 18px;
