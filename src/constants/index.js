@@ -25,3 +25,35 @@ export const MATH = [
 export const MISC = [
     { name: '', html: '', hex: '', entity: '' },
 ];
+
+export const SMILEYS_PEOPLE = [
+    { name: '', html: '', hex: '', entity: '' },
+];
+
+export const ANIMALS_NATURE = [
+    { name: '', html: '', hex: '', entity: '' },
+];
+
+export const FOOD_DRINK = [
+    { name: '', html: '', hex: '', entity: '' },
+];
+
+export const ACTIVITY = [
+    { name: '', html: '', hex: '', entity: '' },
+];
+
+export const TRAVEL_PLACES = [
+    { name: '', html: '', hex: '', entity: '' },
+];
+
+export const OBJECTS = [
+    { name: '', html: '', hex: '', entity: '' },
+];
+
+export const SYMBOLS = [
+    { name: '', html: '', hex: '', entity: '' },
+];
+
+export const FLAGS = [
+    { name: '', html: '', hex: '', entity: '' },
+];
