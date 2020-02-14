@@ -1,0 +1,24 @@
+.not-found {
+    left: 0px;
+    top: 0;
+    height: 80vh;
+    line-height: 1.5em;
+    color: $primary;
+    .error-text {
+        font-size: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        direction: rtl;
+        img {
+            margin: 85px auto 20px;
+            height: 342px;
+        }
+        span {
+            position: relative;
+            font-size: 3.3em;
+            font-weight: 900;
+            margin-bottom: 50px;
+        }
+    }
+}
